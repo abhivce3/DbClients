@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+		<TargetFrameworks>netstandard2.0;net48;net6.0</TargetFrameworks>
+		<PackageId>R1.Cosmos.NoSql.Client</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>R1 RCM</Authors>
+		<Company>R1 RCM</Company>
+		<Product>R1.Cosmos.NoSql.Client</Product>
+		<Description>A .Net library for Business operations</Description>
+		<PackageTags>cosmosdbNoSql;dotnet;database;NoSql</PackageTags>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\R1.Cosmos.NoSql.Client.Persistence\R1.Cosmos.NoSql.Client.Persistence.csproj" />
+  </ItemGroup>
+</Project>

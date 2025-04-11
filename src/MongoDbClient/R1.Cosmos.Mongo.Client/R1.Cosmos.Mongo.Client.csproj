@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>netstandard2.0;net48;net6.0</TargetFrameworks>
+	  <PackageId>R1.Cosmos.Mongo.Client</PackageId>
+	  <Version>1.0.1</Version>
+	  <Authors>R1 RCM</Authors>
+	  <Company>R1 RCM</Company>
+	  <Product>R1.Cosmos.Mongo.Client</Product>
+	  <Description>A .Net library to perform Cosmos DB CRUD operations using Mongo DB API</Description>
+	  <PackageTags>cosmosdb;dotnet;database</PackageTags>
+	  <Nullable>disable</Nullable>
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\R1.Cosmos.Mongo.Client.Persistence\R1.Cosmos.Mongo.Client.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
